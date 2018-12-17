@@ -17,6 +17,7 @@
 		4296E02721C79CF60055E4C6 /* YantextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4296E02621C79CF60055E4C6 /* YantextUITests.m */; };
 		4296E03621C7A2770055E4C6 /* CCCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4296E03521C7A2760055E4C6 /* CCCollectionViewLayout.m */; };
 		4296E03D21C7AA6B0055E4C6 /* CCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4296E03C21C7AA6B0055E4C6 /* CCCell.m */; };
+		4296E04021C7AE450055E4C6 /* CCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4296E03F21C7AE450055E4C6 /* CCModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		4296E03721C7A5AD0055E4C6 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		4296E03B21C7AA6B0055E4C6 /* CCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCell.h; sourceTree = "<group>"; };
 		4296E03C21C7AA6B0055E4C6 /* CCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCell.m; sourceTree = "<group>"; };
+		4296E03E21C7AE450055E4C6 /* CCModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCModel.h; sourceTree = "<group>"; };
+		4296E03F21C7AE450055E4C6 /* CCModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 		4296E03A21C7AA290055E4C6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4296E03E21C7AE450055E4C6 /* CCModel.h */,
+				4296E03F21C7AE450055E4C6 /* CCModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 				4296E00721C79CF40055E4C6 /* ViewController.m in Sources */,
 				4296E01221C79CF50055E4C6 /* main.m in Sources */,
 				4296E03621C7A2770055E4C6 /* CCCollectionViewLayout.m in Sources */,
+				4296E04021C7AE450055E4C6 /* CCModel.m in Sources */,
 				4296E03D21C7AA6B0055E4C6 /* CCCell.m in Sources */,
 				4296E00421C79CF40055E4C6 /* AppDelegate.m in Sources */,
 			);
