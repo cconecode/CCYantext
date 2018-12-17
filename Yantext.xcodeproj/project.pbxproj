@@ -15,6 +15,8 @@
 		4296E01221C79CF50055E4C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4296E01121C79CF50055E4C6 /* main.m */; };
 		4296E01C21C79CF60055E4C6 /* YantextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4296E01B21C79CF60055E4C6 /* YantextTests.m */; };
 		4296E02721C79CF60055E4C6 /* YantextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4296E02621C79CF60055E4C6 /* YantextUITests.m */; };
+		4296E03621C7A2770055E4C6 /* CCCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4296E03521C7A2760055E4C6 /* CCCollectionViewLayout.m */; };
+		4296E03D21C7AA6B0055E4C6 /* CCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4296E03C21C7AA6B0055E4C6 /* CCCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		4296E02221C79CF60055E4C6 /* YantextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YantextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4296E02621C79CF60055E4C6 /* YantextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YantextUITests.m; sourceTree = "<group>"; };
 		4296E02821C79CF60055E4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4296E03421C7A2760055E4C6 /* CCCollectionViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCollectionViewLayout.h; sourceTree = "<group>"; };
+		4296E03521C7A2760055E4C6 /* CCCollectionViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCollectionViewLayout.m; sourceTree = "<group>"; };
+		4296E03721C7A5AD0055E4C6 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		4296E03B21C7AA6B0055E4C6 /* CCCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCell.h; sourceTree = "<group>"; };
+		4296E03C21C7AA6B0055E4C6 /* CCCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +108,12 @@
 		4296E00121C79CF40055E4C6 /* Yantext */ = {
 			isa = PBXGroup;
 			children = (
+				4296E03821C7AA0E0055E4C6 /* Controllers */,
+				4296E03A21C7AA290055E4C6 /* Model */,
+				4296E03921C7AA200055E4C6 /* View */,
+				4296E03721C7A5AD0055E4C6 /* Util.h */,
 				4296E00221C79CF40055E4C6 /* AppDelegate.h */,
 				4296E00321C79CF40055E4C6 /* AppDelegate.m */,
-				4296E00521C79CF40055E4C6 /* ViewController.h */,
-				4296E00621C79CF40055E4C6 /* ViewController.m */,
 				4296E00821C79CF40055E4C6 /* Main.storyboard */,
 				4296E00B21C79CF50055E4C6 /* Assets.xcassets */,
 				4296E00D21C79CF50055E4C6 /* LaunchScreen.storyboard */,
@@ -130,6 +139,33 @@
 				4296E02821C79CF60055E4C6 /* Info.plist */,
 			);
 			path = YantextUITests;
+			sourceTree = "<group>";
+		};
+		4296E03821C7AA0E0055E4C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4296E00521C79CF40055E4C6 /* ViewController.h */,
+				4296E00621C79CF40055E4C6 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4296E03921C7AA200055E4C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4296E03421C7A2760055E4C6 /* CCCollectionViewLayout.h */,
+				4296E03521C7A2760055E4C6 /* CCCollectionViewLayout.m */,
+				4296E03B21C7AA6B0055E4C6 /* CCCell.h */,
+				4296E03C21C7AA6B0055E4C6 /* CCCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4296E03A21C7AA290055E4C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +300,8 @@
 			files = (
 				4296E00721C79CF40055E4C6 /* ViewController.m in Sources */,
 				4296E01221C79CF50055E4C6 /* main.m in Sources */,
+				4296E03621C7A2770055E4C6 /* CCCollectionViewLayout.m in Sources */,
+				4296E03D21C7AA6B0055E4C6 /* CCCell.m in Sources */,
 				4296E00421C79CF40055E4C6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
